@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(){
+int main()
+{
     char x[100];
     int y;
     char z[100];
