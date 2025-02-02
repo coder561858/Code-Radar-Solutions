@@ -5,7 +5,7 @@ int main()
     scanf("%d",&x);
     scanf("%d",&y);
     scanf("%d",&z);
-    int average=(x+y+z)/3.0;
-    printf("Average: %.2f",average);
+    float average=(x+y+z)/3.0;
+    printf("Average: %.2f\n",average);
     return 0;
 }
