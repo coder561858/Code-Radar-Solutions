@@ -5,5 +5,5 @@ int main(){
     scanf("%d",&j);
     int k;
     k=i|j;
-    printf("%d",k)
+    printf("%d",k);
 }
