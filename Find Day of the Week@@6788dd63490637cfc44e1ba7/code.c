@@ -4,19 +4,19 @@ int main(){
     scanf("%d",&x);
     switch(x){
         case 1:printf("Monday\n");
-        break
+        break;
         case 2:printf("Tuesday\n");
-        break
+        break;
         case 3:printf("Wednesday\n");
-        break
+        break;
         case 4:printf("Thursday\n");
-        break
+        break;
         case 5:printf("Friday\n");
-        break
+        break;
         case 6:printf("Saturday\n");
-        break
+        break;
         case 7:printf("Sunday\n");
-        break
+        break;
         default:printf("Not a valid day");
     }
 }
