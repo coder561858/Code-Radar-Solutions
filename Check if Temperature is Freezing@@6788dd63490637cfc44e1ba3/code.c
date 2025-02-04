@@ -6,6 +6,6 @@ int main(){
         printf("Freezing");
     }
     else{
-        printf("Normal");
+        printf("Above Freezing");
     }
 }
