@@ -20,3 +20,5 @@ int main(){
     else{
         printf("Invlaid");
     }
+
+}
