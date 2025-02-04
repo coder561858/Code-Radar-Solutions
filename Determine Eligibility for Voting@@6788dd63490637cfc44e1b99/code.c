@@ -9,6 +9,6 @@ int main(){
         printf("Not eligible");
     }
     else{
-        printf("Invalid age")
+        printf("Invalid age");
     }
 }
