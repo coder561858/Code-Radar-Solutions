@@ -6,9 +6,9 @@ int main(){
     printf("Profit");
     }
     else if(x==y){
-    printf("Loss");
+    printf("No Profit No Loss");
     }
     else{
-    printf("No Profit No Loss");
+    printf("Loss");
     }
 }
