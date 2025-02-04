@@ -10,5 +10,5 @@ int main(){
         printf(y);
     }
 }   else {
-    printf(z);
+        printf(z);
 }
