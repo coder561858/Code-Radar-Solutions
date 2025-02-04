@@ -3,9 +3,9 @@ int main(){
     int x,y;
     scanf("%d %d",&x,&y);
     if((x>=18)&&(y==1)){
-        print("Eligible");
+        printf("Eligible");
     }
     else{
-        print("Not eligible");
+        printf("Not eligible");
     }
 }
