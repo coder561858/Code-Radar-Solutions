@@ -2,19 +2,19 @@
 int main(){
     char x;
     scanf("%c",&x);
-    if("%c",'A'){
+    if(x=='A'){
     printf("Excellent");
     }
-    else if("%c",'B'){
+    else if(x=='B'){
     printf("Good");
     }
-    else if("%c",'C'){
+    else if(x=='C'){
     printf("Average");
     }
-    else if("%c",'D'){
+    else if(x=='D'){
     printf("Below Average");
     }
-    else if("%c",F){
+    else if(x=='F'){
     printf("Fail");
     }
     else{
