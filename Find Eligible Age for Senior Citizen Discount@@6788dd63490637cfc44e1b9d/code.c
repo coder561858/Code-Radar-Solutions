@@ -8,4 +8,7 @@ int main(){
     else if {
         printf("Not eligible");
     }
+    else{
+        printf("Invalid age");
+    }
 }
