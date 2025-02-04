@@ -2,9 +2,9 @@
 int main(){
     int i,j,row;
     scanf("%d",&row);
-    for(i=row;j>=row;i++)
+    for(i=row;j>=row;i--)
     {
-     for(j=1;j<=i;j--)
+     for(j=1;j<=i;j++)
      {
         printf("*");
      }
