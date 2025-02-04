@@ -2,10 +2,10 @@
 int main(){
     int x;
     scanf("%d",&x);
-    if(1<=x<=100){
+    if(0<=x<=100){
         printf("In Range");
     }
-    else if (x>=100){
+    else if (x>100){
         printf("Out of Range");
     }
 }
