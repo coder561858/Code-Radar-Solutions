@@ -9,6 +9,7 @@ int main(){
     else if ((y>x)&&(y>z)){
         printf(y);
     }
-}   else {
+    else {
         printf(z);
+    }
 }
