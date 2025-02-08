@@ -1,10 +1,11 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
-int main() {
-    printf("%s", welcome());
-    return 0;
+int main(){
+    char x;
+    scanf("%c",&x);
+    if((x=='a')&&(x=="e")&&(x=='i')&&(x=='o')&&(x=='u')){
+        printf("Vowel");
+    }
+    else{
+        printf("consonant");
+    }
 }
