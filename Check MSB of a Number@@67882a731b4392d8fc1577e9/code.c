@@ -2,12 +2,13 @@
 
 int main() {
     int x;
-   
-    if ((x<1)&&(x>=1<<32)){
-        printf("Set");
+    scanf("%d", &x);
+    if (x < 1 || x >= (1 << 32)) {
+        printf("Set\n");
     }
-     else if(((-1<<31)<=x)&&(x>=(1>>31)&&(x==0))){
-      printf("Not Set");
+    else if ((x >= -(1 << 31) && x <= (1 << 31) - 1) && x == 0) {
+        printf("Not Set\n");
     }
-    
+
+    return 0;
 }
