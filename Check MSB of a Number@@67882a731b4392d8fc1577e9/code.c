@@ -4,10 +4,13 @@ int main() {
     int x;
     scanf("%d", &x);
 
-    if ((x < 1) || (x >= (1U << 32))) {
+    const int INT_MIN = -2147483648;  
+    const int INT_MAX = 2147483647;   
+
+    if (x < INT_MIN || x > INT_MAX) {
         printf("Set\n");
     }
-    else if ((x >= -(1 << 31)) && (x <= ((1U << 31) - 1)) && (x == 0)) {
+    else if (x == 0) {
         printf("Not Set\n");
     }
 
