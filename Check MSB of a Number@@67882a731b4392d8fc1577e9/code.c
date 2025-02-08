@@ -8,8 +8,4 @@ int main() {
     else if(-2^31<=x<=2^31){
       printf("Not Set");
     }
-   
-    else{
-      printf("Set");
-    }
 }
