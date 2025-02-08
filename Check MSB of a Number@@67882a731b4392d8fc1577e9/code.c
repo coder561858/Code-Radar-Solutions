@@ -5,7 +5,7 @@ int main() {
     if ((x<1)&&(x>=2^32)){
         printf("Set");
     }
-    if(-2^31<=x<=2^31){
+    else if(-2^31<=x<=2^31){
       printf("Not Set");
     }
 }
