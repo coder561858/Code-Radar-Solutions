@@ -3,10 +3,10 @@
 int main() {
     int x;
     scanf("%d", &x);
-    if (x < 1 || x >= (1 << 32)) {
+    if ((x < 1) || (x >= (1 << 32))) {
         printf("Set\n");
     }
-    else if ((x >= (-(1 << 31)) && x <= (1 << 31) - 1) && x == 0) {
+    else if ((x >= (-1 << 31)) && (x <= (1 << 31 - 1)) && (x == 0)) {
         printf("Not Set\n");
     }
 
