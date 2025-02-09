@@ -17,11 +17,13 @@ int main(){
         printf("%d",mul);
     }
     else if(z=='/'){
+        if (y==0){
+        printf("error");
+        }
+        else{
         float div=(float)x/y;
         printf("%.0f",div);
-        else (y==0){
-        printf("error");
-    }
+        }  
     }
     
 }
