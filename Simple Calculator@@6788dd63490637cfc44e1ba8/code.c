@@ -16,10 +16,7 @@ int main(){
         int mul=x*y;
         printf("%d",mul);
     }
-    else if(z=='/'){
-        int div=x/y;
-        printf("%d",div);
-    }
+    
     else if (y==0){
         printf("error");
     }
