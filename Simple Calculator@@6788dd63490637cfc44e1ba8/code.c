@@ -20,4 +20,7 @@ int main(){
         int div=x/y;
         printf("%d",div);
     }
+    else if (y==0){
+        printf("error");
+    }
 }
