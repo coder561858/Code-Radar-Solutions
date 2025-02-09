@@ -18,6 +18,6 @@ int main(){
     }
     else if(z=='/'){
         float div=x/y;
-        printf("%f",float);
+        printf("%f",div);
     }
 }
