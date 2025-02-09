@@ -16,14 +16,12 @@ int main(){
         int mul=x*y;
         printf("%d",mul);
     }
-    else if(z=='/'){
-        if (y==0){
+    else if (y==0){
         printf("error");
-        }
-        else{
+    }
+    else if(z=='/'){
         float div=(float)x/y;
         printf("%.0f",div);
-        }  
-    }
-    
+    }  
 }
+    
