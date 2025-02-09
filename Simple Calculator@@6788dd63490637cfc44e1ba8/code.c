@@ -12,4 +12,12 @@ int main(){
         int sub=x-y;
         printf("%d",sub);
     }
+    else if(z=='*'){
+        int mul=x*y;
+        printf("%d",mul);
+    }
+    else if(z=='/'){
+        int div=x/y;
+        printf("%d",div);
+    }
 }
