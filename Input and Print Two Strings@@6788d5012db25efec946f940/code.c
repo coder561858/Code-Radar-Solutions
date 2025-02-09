@@ -4,6 +4,8 @@ int main(){
     char y[100];
     scanf("%s %s",&x,&y);
     printf("%s", x);
+    
     printf("and");
+    
     printf("%s", y);
 }
