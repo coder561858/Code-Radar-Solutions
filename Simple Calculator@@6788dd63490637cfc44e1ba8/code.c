@@ -2,7 +2,7 @@
 int main(){
     int x,y,z;
     scanf("%d %d %d",&x,&y,&z);
-    if(z=='+'){
+    if(z== +){
        int sum=x+y;
        printf("%d",sum);
     }
