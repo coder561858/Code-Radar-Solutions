@@ -7,10 +7,10 @@ int main(){
         printf("Vowel\n");
 
     }
-    else if (x>="0"&&x<="9"){
+    else if (x>="0" && x<="9"){
         printf("Digit\n");
     }
-    else if((x>=33&&x<=47)||(x>=58 && x<=64)||(x>=91 && x<=96)||(x>=123 && x<=126)){
+    else if((x>=33 && x<=47)||(x>=58 && x<=64)||(x>=91 && x<=96)||(x>=123 && x<=126)){
         printf("Special Character\n");
     }
     else{
