@@ -17,8 +17,8 @@ int main(){
         printf("%d",mul);
     }
     else if(z=='/'){
-        int div=x/y;
-        printf("%d",div);
+        float div=x/y;
+        printf("%.2f",div);
     }
     else if (y==0){
         printf("error");
