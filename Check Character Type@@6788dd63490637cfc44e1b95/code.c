@@ -1,21 +1,20 @@
-#include <stdio.h>
+#include<stdio.h>
+
 int main(){
     char x;
     scanf("%c",&x);
-    if((x='a')&&(x="e")&&(x='i')&&(x='o')&&(x='u')){
-        printf("Vowel");
+    if(x=='a'||x=='e'||x=='i'||x=='o'||x=='u'){
+        printf("Vowel\n");
+
     }
-    int y;
-    scanf("%d",&y);
-    else if((1<=x)&&(x<=100)){
-        printf("Digit");
+    else if (x>="0"&&x<="9"){
+        printf("Digit\n");
     }
-    char z;
-    scanf("%c",&z)
-    else if("@"){
-        printf("Special Character");
+    else if((x>=33&&x<=47)||(x>=58 && x<=64)||(x>=91 && x<=96)||(x>=123 && x<=126)){
+        printf("Special Character\n");
     }
     else{
-        printf("Consonant");
+        printf("Consonant\n");
     }
+    return 0;
 }
