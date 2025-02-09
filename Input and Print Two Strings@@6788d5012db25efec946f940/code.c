@@ -3,7 +3,7 @@ int main(){
     char x[100];
     char y[100];
     scanf("%s %s",&x,&y);
-    printf("You entered:%s", x);
+    printf("You entered: %s", x);
     
     printf("and");
     
