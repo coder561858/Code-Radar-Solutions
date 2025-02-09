@@ -4,7 +4,7 @@ int main() {
     int num;
 
     
-    printf("Enter an integer: ");
+    printf("");
     scanf("%d", &num);
 
     printf("Hexadecimal: %X\n", num);
