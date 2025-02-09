@@ -17,7 +17,7 @@ int main(){
         printf("%d",mul);
     }
     else if(z=='%'){
-        int div=x%y;
+        int div=x/y;
         printf("%d",div);
     }
     else if (y==0){
