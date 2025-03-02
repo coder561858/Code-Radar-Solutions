@@ -5,8 +5,8 @@ int main(){
     for(i=1;i<=row;i++){
         for(j=i;j<=i;j++){
             k+=j;
-            h+=k;
-            printf("%d ",h);
+            h=k
+            printf("%d ",k);
 
 
 
