@@ -5,4 +5,5 @@ int main(){
     for(i=1;i<=j;i++){
         printf("%d",j);
     }
+    return 0;
 }
