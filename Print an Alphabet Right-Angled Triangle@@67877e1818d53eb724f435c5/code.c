@@ -12,5 +12,5 @@ int main(){
    }
    printf("\n");
 }
-   }
+}
 }
