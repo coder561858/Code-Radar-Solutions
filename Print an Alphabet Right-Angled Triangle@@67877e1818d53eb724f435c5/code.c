@@ -5,7 +5,6 @@ int main(){
    int row;
    scanf("%d",&row);
    for(i=0;i<=row;i++){
-
    for(j='A';j<='A'+i-1;j++){
     printf("%c ",j);
    }
