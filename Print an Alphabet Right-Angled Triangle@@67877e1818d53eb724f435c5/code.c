@@ -4,13 +4,12 @@ int main(){
    char j;
    int row;
    scanf("%d",&row);
-   for('A'<=j<='Z'){
-   for(i=1;i<=row;i++){
+   for(i=0;i<=row;i++){
 
-   for(j='A';j<=i;j++){
-    printf("%c",j);
+   for(j='A';j<='A'+i;j++){
+    printf("%c" ,j);
    }
    printf("\n");
 }
-}
+
 }
