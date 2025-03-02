@@ -1,12 +1,13 @@
 #include<stdio.h>
 int main(){
-   char i,j;
+   int i;
+   char j;
    int row;
    scanf("%d",&row);
-   for(i='A';i<=row;i++){
+   for(i=1;i<=row;i++){
 
    for(j='A';j<=i;j++){
-    printf("%c",i);
+    printf("%c",j);
    }
    printf("\n");
 }
