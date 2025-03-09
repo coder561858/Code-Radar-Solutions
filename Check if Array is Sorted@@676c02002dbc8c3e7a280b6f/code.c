@@ -10,6 +10,12 @@ int main(){
 		if(a[i]>a[0]){
 			printf("Sorted\n");
 		}
+        else if(a[0]==a[i]){
+            printf("Sorted\n");
+        }
+        else if(a[i]=0){
+            printf("Sorted\n");
+        }
 		else{
 			printf("Not Sorted\n");
 		}
