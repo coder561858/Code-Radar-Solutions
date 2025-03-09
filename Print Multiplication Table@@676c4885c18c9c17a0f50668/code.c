@@ -5,7 +5,7 @@ int main(){
     int i;
     scanf("%d",&n);
     for(i=0;i<=10;i++){
-        printf("%d",n'x'i);
+        printf(" n x i",);
         printf("%d\n",n*i);
     }
 }
