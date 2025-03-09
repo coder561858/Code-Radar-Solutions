@@ -12,7 +12,7 @@ int main(){
             max=a[i];
         }
         else{
-            min=a[i]
+            min=a[i];
         }
         
 
