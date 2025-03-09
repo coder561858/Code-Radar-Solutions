@@ -11,11 +11,11 @@ int main(){
         if(a[i-1]<a[i]&& a[i]>a[i+1]){
             max=a[i];
         }
-        else{
-            printf("-1");
-        }
         
 
+    }
+    else{
+        printf("-1");
     }
     printf("%d",max);
 }
