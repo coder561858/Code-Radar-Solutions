@@ -3,9 +3,10 @@
 int main(){
     int n;
     int a[n];
-    int max=a[0];
+    
     int sum=0;
     int i;
+    int max=a[0];
     scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
