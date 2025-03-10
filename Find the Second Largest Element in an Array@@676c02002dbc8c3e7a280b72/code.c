@@ -19,7 +19,7 @@ int main() {
     for (i =1; i <n; i++) {  
         scanf("%d", &a[i]);
         
-        if (a[i] > max && a[i]<a[i+3]) {
+        if (a[i] > max && a[i]<a[n]) {
             min = a[i];  
         }
         
