@@ -11,7 +11,7 @@ int main(){
         if(a[i]>=0){
             count+=1;
         }
-        printf("%d\n",a[i]);
+        printf("%d\n",i);
         printf("%d\n",count);
     }
     
