@@ -13,7 +13,7 @@ int main() {
     
     
     int max = a[0];
-    int min = a[0];
+    int min;
 
     
     for (i =1; i <n; i++) {  
