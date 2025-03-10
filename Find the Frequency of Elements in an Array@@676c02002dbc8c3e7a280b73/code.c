@@ -12,7 +12,8 @@ int main(){
             count+=1;
         }
         printf("%d\n",i);
-        printf("%d ",count);
+        
     }
+    printf("%d ",count);
     
 }
