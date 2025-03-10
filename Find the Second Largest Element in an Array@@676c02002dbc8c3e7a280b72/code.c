@@ -11,6 +11,7 @@ int main(){
 	if(a[0]<a[i] && a[i]<a[i+1]){
 	a[i]=smax;
 	}
-	printf("%d",smax);
+	
     }
+    printf("%d",smax);
 }
