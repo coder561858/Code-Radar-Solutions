@@ -12,7 +12,7 @@ int main(){
         if(arr[i]>arr[0]&&arr[i]%2==0){
             even=arr[i];
         }
-        else if(arr[0]>0){
+        else if(arr[0]>arr[i]){
             only=arr[0];
         }
     }
