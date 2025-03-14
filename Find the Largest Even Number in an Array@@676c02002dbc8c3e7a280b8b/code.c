@@ -26,6 +26,9 @@ int main() {
         else if(arr[0]==100){
             even=arr[0];
         }
+        else if(arr[i]<0 && arr[i]>arr[0]){
+            even=arr[i];
+        }
     }
 
     // Print results
