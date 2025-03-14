@@ -9,7 +9,9 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
         if(arr[i]>arr[0]&&arr[i]%2==0){
+            if (even == -1 || arr[i] > even){
             even=arr[i];
+            }
         }
         else if(arr[i]>arr[0] &&arr[i]%2!=0){
             even=-1;
