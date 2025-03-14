@@ -20,7 +20,7 @@ int main() {
         }
 
         // If there's an odd number, set only to -1
-        if (arr[i]>arr[0] && arr[i] % 2 != 0) {
+        else if (arr[i]>arr[0] && arr[i] % 2 != 0) {
             even = -1;
         }
     }
