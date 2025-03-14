@@ -7,9 +7,9 @@ int main(){
     int sum=0;
     int i;
     scanf("%d",&n);
-    for(i=0;i<n;i++){
+    for(i=0;i<=n;i++){
         scanf("%d",&a[i]);
-        if(a[i]>a[0]&&a[i]<a[n-1]){
+        if(a[i]>a[0]&&a[i]<a[n]){
             sum=a[i];
         }
         
