@@ -12,7 +12,7 @@ int main(){
             count+=1;
         }
         printf("%d\n",i);
-        printf("%d\n",count);
+        printf("%d",count);
         
         
     }
