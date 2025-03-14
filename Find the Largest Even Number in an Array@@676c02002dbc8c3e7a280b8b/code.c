@@ -13,7 +13,7 @@ int main(){
             even=arr[i];
         }
         else if(arr[i]%2!=0){
-            only==-1;
+            only=-1;
         }
     }
     printf("%d",even);
