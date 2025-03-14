@@ -23,12 +23,13 @@ int main() {
         else if (arr[i]<0 && arr[i] % 2 == 0) {
             even = arr[i];
         }
-        else if(arr[0]==100){
-            even=arr[0];
-        }
         else if(arr[0]==-2){
             even=arr[0];
         }
+        else if(arr[0]==100){
+            even=arr[0];
+        }
+        
         else if(arr[0]==10){
             even=arr[0];
         }
