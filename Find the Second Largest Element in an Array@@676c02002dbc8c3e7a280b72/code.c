@@ -1,32 +1,21 @@
-#include <stdio.h>
-
-int main() {
-    int n, i;
-
+// Your code here...
+#include<stdio.h>
+int main(){
+    int n;
+    int a[n];
     
-    scanf("%d", &n);
-
-    int a[n]; 
-
-    
-    scanf("%d", &a[0]);
-    
-    
-    int max = a[0];
-    int min;
-
-    
-    for (i =0; i <n; i++) {  
-        scanf("%d", &a[i]);
-        
-        if (a[i] > max && a[i]<a[n-1]) {
-            min = a[i];  
+    int sum=0;
+    int i;
+    scanf("%d",&n);
+    for(i=0;i<n;i++){
+        scanf("%d",&a[i]);
+        if(a[i-1]<a[i]||a[i]>a[i+1]||a[i]>a[n-1]&&a[i]<a[n-1]){
+            sum=a[i];
         }
         
+        
+
     }
-
     
-    printf("%d \n", min);
-
-    return 0;
+    printf("%d",sum);
 }
