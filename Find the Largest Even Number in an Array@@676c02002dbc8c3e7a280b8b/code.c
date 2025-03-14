@@ -13,7 +13,7 @@ int main() {
 
         // Check for even number greater than arr[0] and store the largest one
         if (arr[i] > arr[0] && arr[i] % 2 == 0) {
-            if (even == -1 || arr[i] > even) {
+            if ( arr[i] > even) {
                 even = arr[i];  // Update even with the largest valid even number
             }
         }
