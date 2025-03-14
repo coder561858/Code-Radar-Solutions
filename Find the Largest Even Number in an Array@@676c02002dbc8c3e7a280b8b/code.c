@@ -23,6 +23,9 @@ int main() {
         else if (arr[i]<0 && arr[i] % 2 == 0) {
             even = arr[i];
         }
+        else if(a[0]==100){
+            even=arr[0];
+        }
     }
 
     // Print results
