@@ -12,6 +12,9 @@ int main(){
         if(a[i-1]<a[i]||a[i]>a[i+1]&&a[i]<a[n-1]){
             sum=a[i];
         }
+        if(a[i-1]==a[i]||a[i]==a[i+1]&&a[i]==a[n-1]){
+            sum=-1;
+        }
         
         
 
