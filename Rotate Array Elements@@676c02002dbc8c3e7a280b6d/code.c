@@ -31,12 +31,12 @@ int main() {
     }
 
     
-    for ( i = n-1; i>=k; i++) {
+    for ( i = n-1; i>=k; i--) {
         arr[i] = arr[i - k];
     }
 
     
-    for ( i = 0; i < k; i--) {
+    for ( i = 0; i < k; i++) {
         arr[i] = temp[i];
     }
 
