@@ -27,7 +27,7 @@ int main() {
             even=arr[0];
         }
         else if(arr[i]<0&&arr[i]>arr[0]){
-            even=arr[0];
+            even=arr[i];
         }
         else if(arr[0]==10){
             even=arr[0];
