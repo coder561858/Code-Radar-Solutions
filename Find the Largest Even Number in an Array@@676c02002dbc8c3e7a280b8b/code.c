@@ -25,7 +25,7 @@ int main() {
     }
 
     // Print results
-    printf("Largest Even > arr[0]: %d\n", even);
+    printf(" %d\n", even);
 
     return 0;
 }
