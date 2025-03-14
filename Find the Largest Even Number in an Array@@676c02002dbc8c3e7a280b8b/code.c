@@ -12,7 +12,11 @@ int main(){
         if(arr[i]>arr[0]&&arr[i]%2==0){
             even=arr[i];
         }
+        else{
+            even==-1;
+        }
     }
+    printf("%d",even);
     printf("%d",even);
     
 
