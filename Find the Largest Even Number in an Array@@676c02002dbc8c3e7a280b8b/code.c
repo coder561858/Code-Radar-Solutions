@@ -11,11 +11,10 @@ int main(){
         if(arr[i]>arr[0]&&arr[i]%2==0){
             even=arr[i];
         }
-        else if(arr[i]%2!=0){
-            only=-1;
+        else if(arr[i]>arr[0] &&arr[i]%2!=0){
+            even=-1;
         }
     }
     printf("%d\n",even);
-    printf("%d",only);
 
 }
