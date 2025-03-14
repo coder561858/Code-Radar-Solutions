@@ -25,7 +25,7 @@ int main() {
     }
 
     // Print results
-    printf(" %d\n", even);
+    printf("%d\n", even);
 
     return 0;
 }
