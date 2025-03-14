@@ -15,12 +15,12 @@ int main() {
         // Check for even number greater than arr[0] and store the largest one
         if (arr[i] > arr[0] && arr[i] % 2 == 0) {
             if (even == -1 || arr[i] > even) {
-                even = arr[i];  // Update even with the largest valid even number
+                even = arr[i]; 
             }
         }
 
         // If there's an odd number, set only to -1
-        if (arr[i] % 2 != 0) {
+        if (a[i]>a[0] &&arr[i] % 2 != 0) {
             even = -1;
         }
     }
