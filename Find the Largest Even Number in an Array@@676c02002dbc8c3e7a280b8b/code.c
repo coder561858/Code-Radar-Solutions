@@ -16,7 +16,7 @@ int main(){
             only=-1;
         }
     }
-    printf("%d",even);
+    printf("%d\n",even);
     printf("%d",only);
 
 }
