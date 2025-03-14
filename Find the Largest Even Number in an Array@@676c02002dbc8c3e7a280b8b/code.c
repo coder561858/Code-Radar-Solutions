@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &n);
 
     int arr[n];
-    int even = -1; // Store the largest even number greater than arr[0]
+    int even = 0; // Store the largest even number greater than arr[0]
      // To check if there's at least one odd number
 
     // Input array elements
