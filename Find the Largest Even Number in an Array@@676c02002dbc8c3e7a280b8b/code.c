@@ -1,31 +1,21 @@
-#include <stdio.h>
-
-int main() {
+#include<stdio.h>
+int main(){
     int n;
-    scanf("%d", &n);
-
+    scanf("%d",&n);
+    int i;
     int arr[n];
-    int even = -1;
-
-    // Input array elements
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-
-        // Check for even number greater than arr[0] and store the largest one
-        if (arr[i] > arr[0] && arr[i] % 2 == 0) {
-            if ( arr[i] > even) {
-                even = arr[i];  // Update even with the largest valid even number
-            }
+    int even=0;
+    int only;
+    for(i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+        if(arr[i]>arr[0]&&arr[i]%2==0){
+            even=arr[i];
         }
-
-        // If there's an odd number, set only to -1
-        if (arr[i] % 2 != 0) {
-            even = -1;
+        else if(arr[i]%2!=0){
+            only=-1;
         }
     }
+    printf("%d\n",even);
+    printf("%d",only);
 
-    // Print results
-    printf("%d\n", even);
-
-    return 0;
 }
