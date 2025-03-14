@@ -26,7 +26,7 @@ int main() {
         else if(arr[0]==100){
             even=arr[0];
         }
-        else if(arr[0]==arr[n]){
+        else if(arr[0]==10{
             even=arr[0];
         }
     }
