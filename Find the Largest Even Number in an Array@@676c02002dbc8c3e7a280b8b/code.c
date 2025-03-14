@@ -6,7 +6,6 @@ int main() {
 
     int arr[n];
     int even = -1; // Store the largest even number greater than arr[0]
-     // To check if there's at least one odd number
 
     // Input array elements
     for (int i = 0; i < n; i++) {
@@ -18,23 +17,9 @@ int main() {
                 even = arr[i]; 
             }
         }
-
-        // If there's an odd number, set only to -1
-        else if (arr[i]<0 && arr[i] % 2 == 0) {
-            even = arr[i];
-        }
-        else if(arr[0]==100){
-            even=arr[0];
-        }
-        else if(arr[i]<0 && arr[0]>arr[i] && arr[i]/2==0){
-            even=arr[0];
-        }
-        else if(arr[0]==10){
-            even=arr[0];
-        }
     }
 
-    // Print results
+    // Print result (if no even number is found, -1 is returned)
     printf("%d\n", even);
 
     return 0;
