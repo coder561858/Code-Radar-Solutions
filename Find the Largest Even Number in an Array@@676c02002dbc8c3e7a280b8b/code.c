@@ -14,6 +14,6 @@ int main(){
         }
     }
     printf("%d",even);
-    printf("%d",only);
+    
 
 }
