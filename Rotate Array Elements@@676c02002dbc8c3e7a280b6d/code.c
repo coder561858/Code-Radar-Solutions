@@ -42,7 +42,7 @@ int main() {
 
     
     for ( i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
+        printf("%d\n", arr[i]);
     }
     printf("\n");
 
