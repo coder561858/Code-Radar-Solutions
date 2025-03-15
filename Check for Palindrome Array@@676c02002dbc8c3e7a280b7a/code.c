@@ -6,8 +6,7 @@ int main(){
     int i;
     int a[n];
     for(i=0;i<n;i++){
-        int rev=a[n]*[::-1];
-        if(rev==a[n]){
+        if(a[i]=a[1-i]){
             printf("YES");
         }
         else{
