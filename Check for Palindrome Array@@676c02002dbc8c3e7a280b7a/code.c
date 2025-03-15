@@ -8,10 +8,10 @@ int main(){
     char p[50];
     for(i=0;i<n;i++){
         if(a[i]=a[1-i]){
-            p="YES";
+            p=="YES";
         }
         else{
-            p="NO";
+            p=="NO";
         }
     }
     printf("%c",p);
