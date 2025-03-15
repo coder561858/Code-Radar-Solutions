@@ -12,6 +12,9 @@ int main(){
         if(a[i]>a[0]){
             sum=a[i]-a[0];
         }
+        else if(a[0]==a[i]){
+            sum=-1;
+        }
         
         
 
