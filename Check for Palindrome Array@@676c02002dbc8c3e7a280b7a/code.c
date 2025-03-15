@@ -8,10 +8,10 @@ int main(){
     char p[10];
     for(i=0;i<n;i++){
         if(a[i]=a[n-i]){
-            p=="YES";
+            printf("YES");
         }
         else{
-            p=="NO";
+            printf("NO");
         }
     }
 }
