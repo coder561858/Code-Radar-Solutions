@@ -14,5 +14,5 @@ int main(){
             p=="NO";
         }
     }
-    printf("%c",p);
+    printf("%s",p);
 }
