@@ -7,7 +7,7 @@ int main(){
     int a[n];
     char p[10];
     for(i=0;i<n;i++){
-        if(a[i]=a[n-i]){
+        if(a[i]=a[n-1-i]){
             printf("YES");
         }
         else{
