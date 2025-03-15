@@ -9,8 +9,8 @@ int main(){
     scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
-        if(a[i]<a[0]){
-            sum=a[i];
+        if(a[i]>a[0]){
+            sum=a[0]-a[i];
         }
         
         
