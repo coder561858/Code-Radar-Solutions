@@ -15,6 +15,9 @@ int main(){
         else if(a[0]==a[i]){
             sum=-1;
         }
+        else if(a[i]<0){
+            sum=a[0]-a[i];
+        }
         
         
 
