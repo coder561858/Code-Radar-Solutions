@@ -5,12 +5,14 @@ int main(){
     scanf("%d",&n);
     int i;
     int a[n];
+    char p[50];
     for(i=0;i<n;i++){
         if(a[i]=a[1-i]){
-            printf("YES");
+            p="YES";
         }
         else{
-            printf("NO");
+            p="NO";
         }
     }
+    printf("%c",p);
 }
