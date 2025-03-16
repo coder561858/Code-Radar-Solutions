@@ -10,6 +10,9 @@ int main(){
         if(a[i]=a[n-1-i]){
             printf("YES");
         }
+        else if(a[i]!=a[n-1]){
+            printf("NO");
+        }
         else{
             printf("NO");
         }
