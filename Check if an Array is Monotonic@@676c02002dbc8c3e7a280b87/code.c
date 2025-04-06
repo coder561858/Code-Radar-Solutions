@@ -26,5 +26,5 @@ int main(){
         }
         
     }
-    printf("%d",z);
+    printf("%s",z);
 }
