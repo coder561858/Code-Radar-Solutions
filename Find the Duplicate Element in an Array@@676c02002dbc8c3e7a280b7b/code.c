@@ -14,7 +14,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
             if (arr[i] == arr[j]) {
-                printf("Duplicate element found: %d\n", arr[i]);
+                printf("%d\n", arr[i]);
                 break;  // Optional: remove this if you want to catch all instances
             }
         }
