@@ -18,10 +18,10 @@ int main(){
             }
         }
         if(flag){
-            strcpy("YES");
+            strcpy(z,"YES");
         }
         else{
-            strcpy("NO");
+            strcpy(z,"NO");
         }
         
     }
