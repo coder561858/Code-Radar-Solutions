@@ -15,7 +15,7 @@ int main(){
             if(arr[i]<=arr[j]){
                 flag=1;
             else if(arr[0]==arr[n-1]){
-                flag 0;
+                flag=0;
             }
         
             }
