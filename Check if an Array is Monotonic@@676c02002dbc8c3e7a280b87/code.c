@@ -7,6 +7,7 @@ int main(){
     int arr[n];
     int i;
     int j;
+    char z[10];
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
         int flag=1;
