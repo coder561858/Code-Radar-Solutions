@@ -14,9 +14,7 @@ int main(){
         for(j=0;j<=i;j++){
             if(arr[i]<=arr[j]){
                 flag=1;
-            else if(arr[0]==arr[n-1]){
-                flag;
-            }
+        
         
             }
         }
