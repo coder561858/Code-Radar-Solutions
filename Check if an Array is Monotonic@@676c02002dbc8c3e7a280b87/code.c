@@ -1,5 +1,6 @@
 // Your code here...
 #include<stdio.h>
+#include<string.h>
 int main(){
     int n;
     scanf("%d",&n);
@@ -8,13 +9,21 @@ int main(){
     int j;
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
+        int flag=1;
         for(j=0;j<=i;j++){
             if(arr[i]<=arr[j]){
-                printf("YES");
-            }
-            else{
-                printf("NO");
+                flag=0;
+                break;
+        
             }
         }
+        if(flag){
+            strcpy("YES");
+        }
+        else{
+            strcpy("NO");
+        }
+        
     }
+    printf("%d",z);
 }
