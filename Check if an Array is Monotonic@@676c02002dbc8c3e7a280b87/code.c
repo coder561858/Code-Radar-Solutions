@@ -9,7 +9,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
         for(j=0;j<=i;j++){
-            if(j>i){
+            if(arr[j]>arr[i]){
                 printf("YES");
             }
         }
