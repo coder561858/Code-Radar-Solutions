@@ -10,10 +10,10 @@ int main(){
     char z[10];
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
-        int flag=1;
+        int flag=0;
         for(j=0;j<=i;j++){
             if(arr[i]<=arr[j]){
-                flag=0;
+                flag=1;
                 break;
         
             }
