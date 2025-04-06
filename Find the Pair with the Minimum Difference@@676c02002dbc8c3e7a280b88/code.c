@@ -6,9 +6,9 @@ int main(){
     int arr[n];
     int i;
     for(i=0;i<n;i++){
-        scanf("%d",arr[i]);
+        scanf("%d",&arr[i]);
         if(arr[i]>0){
-            printf("%d",arr[i]-arr[n-i-1])
+            printf("%d",arr[i]-arr[n-i-1]);
 
         }
     }
