@@ -12,7 +12,7 @@ int main(){
         scanf("%d",&arr[i]);
         int flag=0;
         for(j=0;j<=i;j++){
-            if(arr[i]<=arr[j]){
+            if(arr[i]<arr[j]){
                 flag=1;
                 break;
         
