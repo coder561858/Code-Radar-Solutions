@@ -12,6 +12,9 @@ int main(){
             if(arr[i]<=arr[j]){
                 printf("YES");
             }
+            else{
+                printf("NO");
+            }
         }
     }
 }
