@@ -12,7 +12,7 @@ int main(){
             count=a[i];
         }
         else if(a[i]==n/2){
-            count=0;
+            count=-1;
         }
     }
     printf("%d",count);
