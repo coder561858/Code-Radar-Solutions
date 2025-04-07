@@ -22,7 +22,7 @@ int main() {
         int mid3=(n+1)/2;
         printf("%d",mid3);
     }
-    else{
+    else if(a[n]==a[0]){
         printf("%d",n);
     }
 
