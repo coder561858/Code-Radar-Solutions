@@ -18,6 +18,9 @@ int main(){
         iscount=1;
         index=i;
     }
+    else if(a[i]=a[n-i-1]){
+        iscount=0;
+    }
     
     }
     if(iscount){
@@ -25,6 +28,9 @@ int main(){
     }
     if(!iscount){
         printf("%d",-1);
+    }
+    if(iscount=0){
+        printf("%d",0);
     }
 
 }
