@@ -15,5 +15,8 @@ int main(){
     if(a[i]==x){
         printf("%d",i);
     }
+    else{
+        prinf("%d",-1);
+    }
     }
 }
