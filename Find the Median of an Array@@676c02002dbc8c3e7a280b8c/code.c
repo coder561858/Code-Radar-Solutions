@@ -8,7 +8,7 @@ int main(){
     for(i=0;i<=n;i++){
         scanf("%d",&a[i]);
         if(a[n]/2==0){
-            printf("%d",(a[i]/2+a[i/2+1])/2);
+            printf("%d",(a[i]/2+a[i+1])/2);
         }
     }
 
