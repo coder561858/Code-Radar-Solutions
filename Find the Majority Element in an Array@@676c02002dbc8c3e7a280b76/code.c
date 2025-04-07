@@ -1,25 +1,25 @@
-// Your code here...
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
     int a[n];
-    int i;
-    int count=0;
-    for(i=0;i<n;i++){
-        scanf("%d",&a[i]);
-        if(a[i]>n/2){
-            count=a[i];
-        }
-        else if(a[i]==a[n-i-1]){
-            count=a[i];
-        }
-        
-        else if(a[i]<=n/2){
-            count=-1;
-        }
-       
-        
+    int count = -1; // default to -1
+
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
     }
-    printf("%d",count);
+
+    for (int i = 0; i < n; i++) {
+        if (a[i] > n / 2) {
+            count = a[i];
+        }
+        else if (a[i] == a[n - i - 1]) {
+            count = a[i];
+        }
+        // Removed the 'else if (a[i] <= n/2)' that was overwriting count unnecessarily
+    }
+
+    printf("%d", count);
+    return 0;
 }
