@@ -12,7 +12,7 @@ int main() {
     }
 
     for (int i = 0; i < n; i++) {
-        if (a[i] > n/ 2) {
+        if (a[i] > n/n) {
             count = a[i];
         }
         else if (a[i] == a[n - i - 1]) {
