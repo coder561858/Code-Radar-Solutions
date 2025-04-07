@@ -17,8 +17,9 @@ int main() {
         else if (a[i] == a[n - i - 1]) {
             count = a[i];
         }
-        
-        // Removed the 'else if (a[i] <= n/2)' that was overwriting count unnecessarily
+        else if(a[i]!=a[0]){
+            count=-1;
+        }
     }
 
     printf("%d", count);
