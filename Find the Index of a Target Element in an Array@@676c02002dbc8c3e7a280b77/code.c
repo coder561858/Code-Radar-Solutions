@@ -5,7 +5,8 @@ int main(){
     scanf("%d",&n);
     int i,x;
     int a[n];
-    int iscount;
+    int iscount=0;
+    int index;
     for(i=0;i<n;i++){
     scanf("%d",&a[i]);
     }
@@ -14,12 +15,13 @@ int main(){
     }
     for(i=0;i<n;i++){
     if(a[i]==x){
-        iscount=i;
+        iscount=1;
+        index=i;
     }
     
     }
     if(iscount){
-        printf("%d",i);
+        printf("%d",index);
     }
     if(!iscount){
         printf("%d",-1);
