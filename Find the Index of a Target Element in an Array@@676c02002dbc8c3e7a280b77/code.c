@@ -1,37 +1,40 @@
-// Your code here..
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
-    int i,x;
+    scanf("%d", &n);
+
+    int i, x;
     int a[n];
-    int iscount=0;
-    int index;
-    int no;
-    for(i=0;i<n;i++){
-    scanf("%d",&a[i]);
-    }
-    for(i=0;i<1;i++){
-    scanf("%d",&x);
-    }
-    for(i=0;i<n;i++){
-    if(a[i]==x){
-        iscount=1;
-        index=i;
-    }
-    else if(a[i]==a[n-i-1]){
-        no=0;
-    }
-    
-    }
-    if(iscount){
-        printf("%d",index);
-    }
-    if(!iscount){
-        printf("%d",-1);
-    }
-    if(no){
-        printf("%d",0);
+    int iscount = 0;
+    int index = -1;
+    int no = 0; // flag for symmetry check
+
+    for (i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
     }
 
+    scanf("%d", &x); // only need to read x once
+
+    for (i = 0; i < n; i++) {
+        if (a[i] == x) {
+            iscount = 1;
+            index = i; // stores last match
+        }
+        if (a[i] == a[n - i - 1]) {
+            no = 1; // flag set if symmetric pair found
+        }
+    }
+
+    if (iscount) {
+        printf("%d\n", index);
+    } else {
+        printf("-1\n");
+    }
+
+    if (no) {
+        printf("0\n");
+    }
+
+    return 0;
 }
