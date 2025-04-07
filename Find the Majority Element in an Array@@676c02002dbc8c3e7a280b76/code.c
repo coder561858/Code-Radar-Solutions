@@ -7,7 +7,7 @@ int main(){
     int i;
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
-        if(a[i]>=a[n]/2){
+        if(a[i]>=n/2){
             printf("%d",a[i]);
         }
     }
