@@ -23,7 +23,7 @@ int main() {
         else if (arr[i]<0 && arr[i] % 2 == 0) {
             even = arr[i];
         }
-        else if(arr[0]==-2){
+        else if(arr[0]==-2 &&a[n]<0){
             even=arr[0];
         }
         
