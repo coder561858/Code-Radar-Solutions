@@ -20,9 +20,7 @@ int main() {
         else if(a[i]<a[n]/2){
             count=-1;
         }
-        else{
-            count=-1;
-        }
+        
        
     }
 
