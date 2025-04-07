@@ -19,12 +19,10 @@ int main() {
         printf("%d\n", avg);
     } 
     else if(n%2!=0){
-        int mid3=(n+1)/2;
+        int mid3=n/2;
         printf("%d",mid3);
     }
-    else if(a[i]==a[0] && n%2!=0){
-        printf("%d",a[0]);
-    }
+    e
 
     return 0;
 }
