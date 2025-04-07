@@ -21,7 +21,7 @@ int main(){
     if(iscount){
         printf("%d",i);
     }
-    else{
+    if(!iscount){
         printf("%d",-1);
     }
 
