@@ -18,9 +18,9 @@ int main() {
         int avg = (a[mid1] + a[mid2]) / 2;
         printf("%d\n", avg);
     } 
-    else if(n%2!=0){
+    else{
         int mid3=n/2;
-        printf("%d",mid3);
+        printf("%d",a[mid]);
     }
 
     return 0;
