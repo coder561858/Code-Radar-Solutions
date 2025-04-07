@@ -19,7 +19,7 @@ int main() {
         printf("%d\n", avg);
     } 
     else{
-        int mid3=n/2;
+        int mid=n/2;
         printf("%d",a[mid]);
     }
 
