@@ -21,6 +21,9 @@ int main() {
         int mid3=(n+1)/2;
         printf("%d",mid3);
     }
+    else if(a[n]==a[i]){
+        printf("%d",n)
+    }
 
     return 0;
 }
