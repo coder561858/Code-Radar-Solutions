@@ -22,7 +22,6 @@ int main() {
         int mid3=n/2;
         printf("%d",mid3);
     }
-    e
 
     return 0;
 }
