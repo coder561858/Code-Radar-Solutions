@@ -5,7 +5,7 @@ int main(){
     scanf("%d",&n);
     int i,x;
     int a[n];
-    int iscount=0;
+    int iscount;
     for(i=0;i<n;i++){
     scanf("%d",&a[i]);
     }
@@ -14,7 +14,7 @@ int main(){
     }
     for(i=0;i<n;i++){
     if(a[i]==x){
-        iscount=1;
+        iscount=i;
     }
     
     }
