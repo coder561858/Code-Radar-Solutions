@@ -16,7 +16,7 @@ int main(){
         printf("%d",i);
     }
     else{
-        prinf("%d",-1);
+        printf("%d",-1);
     }
     }
 }
