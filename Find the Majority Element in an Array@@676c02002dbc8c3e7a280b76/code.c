@@ -8,10 +8,10 @@ int main(){
     int count=0;
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
-        if(a[i]>n%2){
+        if(a[i]>n/2){
             count=a[i];
         }
-        else if(a[i]<n%2){
+        else if(a[i]<n/2){
             count=-1;
         }
     }
