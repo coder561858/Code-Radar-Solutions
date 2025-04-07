@@ -20,7 +20,7 @@ int main(){
         index=i;
     }
     else if(a[i]==a[n-i-1]){
-        no==0;
+        no=0;
     }
     
     }
