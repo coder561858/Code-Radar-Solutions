@@ -17,7 +17,7 @@ int main() {
         else if (a[i] == a[n - i - 1]) {
             count = a[i];
         }
-        else if(a[i]!=a[0]){
+        else if(a[i+1]!=a[0]){
             count=-1;
         }
     }
