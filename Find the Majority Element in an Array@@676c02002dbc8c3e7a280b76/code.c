@@ -17,9 +17,7 @@ int main() {
         else if (a[i] == a[n - i - 1]) {
             count = a[i];
         }
-        else {
-            count = -1;
-        }
+        
         // Removed the 'else if (a[i] <= n/2)' that was overwriting count unnecessarily
     }
 
