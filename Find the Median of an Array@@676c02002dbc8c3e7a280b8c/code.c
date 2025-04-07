@@ -23,7 +23,7 @@ int main() {
         printf("%d",mid3);
     }
     else if(a[i]==a[0]){
-        printf("%d",a[n]);
+        printf("%d",a[i]);
     }
 
     return 0;
