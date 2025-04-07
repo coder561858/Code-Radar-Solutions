@@ -19,7 +19,7 @@ int main(){
         iscount=1;
         index=i;
     }
-    else if(a[i]=a[n-i-1]){
+    else if(a[i]==a[n-i-1]){
         no;
     }
     
