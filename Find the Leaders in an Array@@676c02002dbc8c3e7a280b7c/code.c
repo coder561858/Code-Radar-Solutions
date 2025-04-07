@@ -7,7 +7,7 @@ int main(){
     int i;
     for(i=0;i<=n;i++){
         scanf("%d",&a[i]);
-        if(a[i]>=a[i+1]||a[i]=n){
+        if(a[i]>=a[i+1]||a[i]==n){
             printf("%d",a[i]);
         }
 
