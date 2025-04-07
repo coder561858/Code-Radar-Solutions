@@ -18,7 +18,7 @@ int main(){
         else if(a[i]<=n/2){
             count=-1;
         }
-        else if(a[n]!=n/2){
+        else if(a[n]<n/2){
             count=-1;
         }
     }
