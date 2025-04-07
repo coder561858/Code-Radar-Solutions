@@ -1,15 +1,21 @@
 // Your code here...
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
-    scanf("%d",&n);
-    int i;
+    scanf("%d", &n);
+    
     int a[n];
-    for(i=0;i<=n;i++){
-        scanf("%d",&a[i]);
-        if(a[n]/2==0){
-            printf("%d",(a[i]/2+a[i+1])/2);
-        }
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
     }
 
+    if (n % 2 == 0) {
+        int mid1 = n / 2 - 1;
+        int mid2 = n / 2;
+        int avg = (a[mid1] + a[mid2]) / 2;
+        printf("%d\n", avg);
+    } 
+
+    return 0;
 }
