@@ -17,12 +17,13 @@ int main() {
         else if (a[i] == a[n - i - 1]) {
             count = a[i];
         }
-        else if(a[i]<a[n]/2){
-            count=-1;
-        }
         else if(a[0]==1){
             count=-1;
         }
+        else if(a[i]<a[n]/2){
+            count=-1;
+        }
+        
        
     }
 
