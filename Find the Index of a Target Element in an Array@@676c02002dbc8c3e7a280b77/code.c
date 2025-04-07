@@ -7,7 +7,7 @@ int main(){
     int a[n];
     int iscount=0;
     int index;
-    int no=0;
+    int no;
     for(i=0;i<n;i++){
     scanf("%d",&a[i]);
     }
@@ -20,7 +20,7 @@ int main(){
         index=i;
     }
     else if(a[i]==a[n-i-1]){
-        no=0;
+        no==0;
     }
     
     }
