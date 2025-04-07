@@ -9,7 +9,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
         if(a[i]>=n/2){
-            count+=1;
+            count+=a[i];
         }
     }
     printf("%d",count);
