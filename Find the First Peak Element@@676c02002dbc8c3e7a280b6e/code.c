@@ -4,21 +4,29 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    int a[n];
-    int sum = -1; // default value if no match found
+    if (n < 3) { // You need at least 3 elements to check neighbors
+        printf("-1\n");
+        return 0;
+    }
 
-    for(int i = 0; i < n; i++) {
+    int a[n];
+    for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
 
-    // Check for a "peak" element (excluding first and last index to avoid out-of-bounds)
-    for(int i = 1; i < n - 1; i++) {
-        if(a[i - 1] < a[i] && a[i] > a[i + 1] && a[0] < a[i]) {
-            sum = a[i];
+    int found = 0; // flag to check if condition is met
+
+    for (int i = 1; i < n - 1; i++) {
+        if (a[i - 1] < a[i] && a[i] > a[i + 1] && a[0] < a[i]) {
+            printf("%d\n", a[i]);
+            found = 1;
             break;
         }
     }
 
-    printf("%d\n", sum);
+    if (!found) {
+        printf("-1\n");
+    }
+
     return 0;
 }
