@@ -10,7 +10,7 @@ int main(){
         scanf("%d",&a[i]);
         for(j=0;j<n;j++){
             if(a[i]>0){
-                printf("%d",a[i][j]==a[i+j]);
+                printf("%d",a[i]+a[j]);
             }
         }
 
