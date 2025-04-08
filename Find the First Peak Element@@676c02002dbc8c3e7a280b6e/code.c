@@ -4,7 +4,7 @@ int main() {
     int n;
     scanf("%d", &n);
 
-    if (n < 3) {
+    if (n < 2) {
         printf("-1\n");
         return 0;
     }
@@ -16,7 +16,7 @@ int main() {
 
     int found = 0;
 
-    // Check from index 1 to n-2
+    
     for (int i = 1; i < n - 1; i++) {
         if (a[i - 1] < a[i] && a[i] > a[i + 1] && a[0] < a[i]) {
             printf("%d\n", a[i]);
