@@ -14,7 +14,7 @@ int main() {
         scanf("%d", &a[i]);
     }
 
-    int found = 0; // flag to check if condition is met
+    int found; // flag to check if condition is met
 
     for (int i = 1; i < n - 1; i++) {
         if (a[i - 1] < a[i] && a[i] > a[i + 1] && a[0] < a[i]) {
@@ -27,7 +27,7 @@ int main() {
         }
     }
 
-    if (found=0) {
+    if (!found) {
         printf("-1\n");
     }
 
