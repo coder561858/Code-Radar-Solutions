@@ -9,7 +9,7 @@ int main(){
     scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
-        if(a[i-1]<a[i]&&a[i]>a[i+1]||a[0]<a[i]){
+        if(a[i-1]<a[i]&&a[i]>a[i+1]&&a[0]<a[i]){
             sum=a[i];
             break;
         }
