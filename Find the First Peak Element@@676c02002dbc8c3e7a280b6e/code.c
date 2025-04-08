@@ -27,7 +27,7 @@ int main() {
         }
     }
 
-    if (!found) {
+    if (found=0) {
         printf("-1\n");
     }
 
