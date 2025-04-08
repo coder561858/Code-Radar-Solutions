@@ -10,7 +10,6 @@ int main(){
         scanf("%d",&a[i]);
         if(a[i]>a[i+1]){
             count+=1;
-            break;
         }
 
     }
