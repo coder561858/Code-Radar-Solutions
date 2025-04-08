@@ -8,7 +8,7 @@ int main(){
     int count=0;
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
-        if(a[i]a[j]==a[n-i-1]a[n-j-1]){
+        if(a[i]a[j]==a[n-j-1]){
             count+=1;
         }
 
