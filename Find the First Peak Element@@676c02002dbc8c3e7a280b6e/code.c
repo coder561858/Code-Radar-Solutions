@@ -21,7 +21,7 @@ int main() {
             printf("%d\n", a[i]);
             found = 1;
             break;
-        } else if ((a[i - 1] == a[i] || a[i] == a[i + 1]) && a[i] == a[n - 1]) {
+        } else if ( a[i-1]<a[n - 1] && a[n-1]>a[n]) {
             // Optional: handle special case if needed
             found = 0; // this doesn't help unless you print something based on it
         }
