@@ -14,15 +14,16 @@ int main() {
         scanf("%d", &a[i]);
     }
 
-    int found; // flag to check if condition is met
+    int found = 0; // initialize flag
 
     for (int i = 1; i < n - 1; i++) {
         if (a[i - 1] < a[i] && a[i] > a[i + 1] && a[0] < a[i]) {
             printf("%d\n", a[i]);
+            found = 1;
             break;
-        }
-          else if(a[i-1]==a[i]||a[i]==a[i+1]&&a[i]==a[n-1]){
-            found;
+        } else if ((a[i - 1] == a[i] || a[i] == a[i + 1]) && a[i] == a[n - 1]) {
+            // Optional: handle special case if needed
+            found = 0; // this doesn't help unless you print something based on it
         }
     }
 
