@@ -15,7 +15,7 @@ int main() {
     for(i = 0; i < n; i++) {
         if(a[i] > 0) {
             for(j = 0; j < n; j++) {
-                printf("%d ", a[i] + a[j]);
+                printf("%d ", a[i][j] + a[j]);
             }
             printf("\n"); // Print newline after each row
         }
