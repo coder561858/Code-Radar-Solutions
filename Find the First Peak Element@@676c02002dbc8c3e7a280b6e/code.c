@@ -10,7 +10,7 @@ int main(){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
         if(a[i-1]<a[i]&&a[i]>a[i+1]&&a[0]<a[i]){
-            sum=a[i+1];
+            sum=a[i];
             break;
         }
         else if(a[i-1]==a[i]||a[i]==a[i+1]&&a[i]==a[n-1]){
