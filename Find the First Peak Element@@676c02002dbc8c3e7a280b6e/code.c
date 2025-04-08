@@ -22,6 +22,9 @@ int main() {
             found = 1;
             break;
         }
+          else if(a[i-1]==a[i]||a[i]==a[i+1]&&a[i]==a[n-1]){
+            found=0;
+        }
     }
 
     if (!found) {
