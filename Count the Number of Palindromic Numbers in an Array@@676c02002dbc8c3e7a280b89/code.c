@@ -3,11 +3,12 @@ int main(){
     int n;
     scanf("%d",&n);
     int i;
+    int j;
     int a[n];
     int count=0;
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
-        if(a[i][i]==a[n-i-1][n-i-1]){
+        if(a[i][j]==a[n-i-1][n-j-1]){
             count+=1;
         }
 
