@@ -1,25 +1,24 @@
-// Your code here...
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+
+int main() {
     int n;
+    scanf("%d", &n);
+
     int a[n];
-    
-    int sum=0;
-    int i;
-    scanf("%d",&n);
-    for(i=0;i<n;i++){
-        scanf("%d",&a[i]);
-        if(a[i-1]<a[i]&&a[i]>a[i+1]&&a[0]<a[i]){
-            sum=a[i];
+    int sum = -1; // default value if no match found
+
+    for(int i = 0; i < n; i++) {
+        scanf("%d", &a[i]);
+    }
+
+    // Check for a "peak" element (excluding first and last index to avoid out-of-bounds)
+    for(int i = 1; i < n - 1; i++) {
+        if(a[i - 1] < a[i] && a[i] > a[i + 1] && a[0] < a[i]) {
+            sum = a[i];
             break;
         }
-        else if(a[i-1]==a[i]||a[i]==a[i+1]&&a[i]==a[n-1]){
-            sum=-1;
-        }
-        
-        
-
     }
-    
-    printf("%d",sum);
+
+    printf("%d\n", sum);
+    return 0;
 }
