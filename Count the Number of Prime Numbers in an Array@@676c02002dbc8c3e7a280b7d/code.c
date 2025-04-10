@@ -5,8 +5,7 @@ int main(){
     scanf("%d",&n);
     int i;
     int a[i];
-    
-    int count=0;
+    int count;
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
         if(a[i]%a[i]==0){
