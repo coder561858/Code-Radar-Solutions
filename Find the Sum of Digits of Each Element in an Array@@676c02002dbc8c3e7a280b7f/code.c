@@ -2,24 +2,31 @@
 #include <stdio.h>
 
 int main() {
-    int n;
-    scanf("%d", &n);
-    
-    int a[n];
-    int i, j,k;
+    int x, y, z;
+    scanf("%d %d %d", &x, &y, &z);  // dimensions of the 3D array
 
-    for(i = 0; i < n; i++) {
-        scanf("%d", &a[i]);
+    int a[x][y][z];
+
+    // Reading input
+    for (int i = 0; i < x; i++) {
+        for (int j = 0; j < y; j++) {
+            for (int k = 0; k < z; k++) {
+                scanf("%d", &a[i][j][k]);
+            }
+        }
     }
 
-    for(i = 0; i < n; i++) {
-        if(a[i] > 0) {
-            for(j = 0; j < n; j++) {
+    // Example: Printing sum of element and its diagonal neighbor
+    for (int i = 0; i < x - 1; i++) {
+        for (int j = 0; j < y - 1; j++) {
+            for (int k = 0; k < z - 1; k++) {
                 printf("%d ", a[i][j][k] + a[i+1][j+1][k+1]);
             }
-            printf("\n"); // Print newline after each row
+            printf("\n");
         }
+        printf("\n");
     }
 
     return 0;
 }
+
