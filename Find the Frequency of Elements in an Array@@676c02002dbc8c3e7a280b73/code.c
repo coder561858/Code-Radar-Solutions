@@ -11,11 +11,9 @@ int main(){
         if(a[i]==a[i+1]){
             count+=1;
         }
-        printf("%d\n%d",i ,count);
+        
         
         
     }
-    
-
-    
+    printf("%d\n %d",i, count);
 }
