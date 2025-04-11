@@ -1,10 +1,8 @@
 // Your code here...
 #include<stdio.h>
+#include<string.h>
 int main(){
     char n[50];
     scanf("%d",&n);
-    int i;
-    for(i=0;i<n;i++){
-    printf("%s",a[n-i-1]);
+    printf("%d",strrev(n))
     }
-}
