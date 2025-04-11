@@ -1,7 +1,7 @@
 // Your code here...
 #include<stdio.h>
 int main(){
-    char *str1;
+    char[50]=str1;
     scanf("%s",str1);
     printf("%s",strlen(str1));
 }
