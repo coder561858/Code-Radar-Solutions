@@ -18,7 +18,7 @@ int main() {
         scanf("%d", &a[i]);
         
         if (a[i] > max) {
-            max = a[i];  
+            max = a[i]*a[i-1];  
         }
         
     }
