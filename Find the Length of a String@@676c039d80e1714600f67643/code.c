@@ -4,5 +4,5 @@
 int main(){
     char str1[100];
     scanf("%s",&str1);
-    printf("%d %d",strlen(str1),strlen(str1));
+    printf("%d %d",strlen(str1),strcat(str1));
 }
