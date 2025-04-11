@@ -4,5 +4,6 @@
 int main(){
     char n[50];
     scanf("%d",&n);
-    printf("%d",strrev(n))
+    strrev_custom(n);
+    printf("%d",n);
     }
