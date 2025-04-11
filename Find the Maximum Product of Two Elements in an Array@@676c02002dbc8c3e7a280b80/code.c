@@ -18,10 +18,10 @@ int main() {
         scanf("%d", &a[i]);
         
         if (a[i] > max) {
-            max = a[i]*a[i-1];  
+            max = a[i]*a[i+1];  
         }
         else if(a[i]<0){
-            max= a[i]*a[n-i+1];
+            max= a[i]*a[n-2];
         }
         
     }
