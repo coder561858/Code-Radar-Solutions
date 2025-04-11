@@ -20,6 +20,9 @@ int main() {
         if (a[i] > max) {
             max = a[i]*a[i-1];  
         }
+        else if(a[i]<0){
+            max= a[i]*a[i+1];
+        }
         
     }
 
