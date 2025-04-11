@@ -29,16 +29,4 @@ void printArray(int arr[], int n) {
     }
     printf("\n");
 }
-int main(){
-	int n;
-	scanf("%d",&n);
-	int arr[n];
-	int i;
-	for(i=0;i<n;i++){
-		scanf("%d",&arr[i]);
-		
-	}
-	selectionSort(arr,n);
-	printArray(arr,n);
-	return 0;
-}
+
