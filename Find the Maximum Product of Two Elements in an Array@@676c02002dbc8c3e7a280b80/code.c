@@ -21,7 +21,7 @@ int main() {
             max = a[i]*a[i-1];  
         }
         else if(a[i]<0){
-            max= a[i]*a[n-i+2];
+            max= a[i]*a[n-i+1];
         }
         
     }
